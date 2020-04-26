@@ -33,7 +33,7 @@ console.log(validate.isEmail('name@website.com'));
 ```
 ```javascript
 // With Require Modules with a config
-var validata = require('validata');
+var validata = require('validata').default;
 
 var result = validate('name@website.com', {
   isEmail: true
