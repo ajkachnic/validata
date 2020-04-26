@@ -16,11 +16,8 @@ jobs:
         node-version: 10.0.0
     - run: npm ci
     - run: npm run build
-  run-tests:
-    name: run-tests
-    runs-on: ubuntu-latest
+    - name: run-tests
     - run: npm run test
-  publish:
     - name: publish
       uses: pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df
       with: # All of theses inputs are optional
