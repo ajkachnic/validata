@@ -1,6 +1,10 @@
 # validata
 > A flexible input validator written in typescript
 
+## Installation
+```sh
+npm install --save @ajkachnic/validata
+```
 ## Usage
 You can use validata in a few different ways
 

@@ -1,5 +1,5 @@
 {
-  "name": "validata",
+  "name": "@ajkachnic/validata",
   "version": "0.1.0",
   "description": "A flexible input validator",
   "main": "dist/index.js",
