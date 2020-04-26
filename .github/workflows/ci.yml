@@ -17,7 +17,7 @@ jobs:
     - run: npm ci
     - run: npm run build
     - name: run-tests
-    - run: npm run test
+      run: npm run test
     - name: publish
       uses: pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df
       with: # All of theses inputs are optional
