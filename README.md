@@ -1,4 +1,6 @@
 # validata
+![npm](https://img.shields.io/npm/v/@ajkachnic/validata?style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@ajkachnic/validata?style=for-the-badge)
 > A flexible input validator written in typescript
 
 ## Installation
