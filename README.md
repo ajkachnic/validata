@@ -31,13 +31,13 @@ console.log(result);
 // With Require Modules
 var validata = require('validata');
 
-console.log(validate.isEmail('name@website.com'));
+console.log(validata.isEmail('name@website.com'));
 ```
 ```javascript
 // With Require Modules with a config
 var validata = require('validata').default;
 
-var result = validate('name@website.com', {
+var result = validata('name@website.com', {
   isEmail: true
 });
 
